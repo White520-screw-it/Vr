@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 15px 30px; /* Size of the button */
+  font-size: 16px;
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  text-align: center; /* Align text in the center */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for the button */
+}
+
+.btn:hover {
+  background-color: #45a049; /* Darker green when hovering */
+}
