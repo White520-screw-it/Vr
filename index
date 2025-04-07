@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>VirtuLearn VR Classroom</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- 360-degree classroom background -->
+      <a-sky src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg" rotation="0 -130 0"></a-sky>
+
+      <!-- Classroom text -->
+      <a-text value="Welcome to VirtuLearn VR Classroom!" 
+              position="-2 2 -3" 
+              color="#FFD700" 
+              width="6"></a-text>
+
+      <!-- A floating button (just visual) -->
+      <a-box position="0 1 -3" 
+             depth="0.5" height="0.5" width="1"
+             color="#4CAF50">
+        <a-text value="Join Class" 
+                align="center" 
+                color="white" 
+                position="0 0 0.3"></a-text>
+      </a-box>
+    </a-scene>
+  </body>
+</html>
